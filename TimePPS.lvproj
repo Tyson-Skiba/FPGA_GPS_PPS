@@ -4315,6 +4315,8 @@
 		<Item Name="test_sup.vi" Type="VI" URL="../Supporting Files/test_sup.vi"/>
 		<Item Name="daisy.vi" Type="VI" URL="../Host/SubVIs/daisy.vi"/>
 		<Item Name="FPGA Timekeeper.lvlib" Type="Library" URL="../FPGA Timekeeper.lvlib"/>
+		<Item Name="PPS_Aquire.vi" Type="VI" URL="../Host/PPS_Aquire.vi"/>
+		<Item Name="niUsrpRio Config v1 Host.lvlib" Type="Library" URL="/&lt;instrlib&gt;/niUsrpRio/Config/v1/Host/niUsrpRio Config v1 Host.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">2</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -4323,7 +4325,6 @@
 				<Item Name="LMK04816 v1 Shared.lvlib" Type="Library" URL="/&lt;instrlib&gt;/niUsrpRio/Register Maps/LMK04816/v1/Shared/LMK04816 v1 Shared.lvlib"/>
 				<Item Name="niInstr DSP v1 Shared.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/DSP/v1/Shared/niInstr DSP v1 Shared.lvlib"/>
 				<Item Name="niInstr Register Bus v0 Host.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Register Bus/v0/Host/niInstr Register Bus v0 Host.lvlib"/>
-				<Item Name="niUsrpRio Config v1 Host.lvlib" Type="Library" URL="/&lt;instrlib&gt;/niUsrpRio/Config/v1/Host/niUsrpRio Config v1 Host.lvlib"/>
 				<Item Name="niUsrpRio Config v1 Shared.lvlib" Type="Library" URL="/&lt;instrlib&gt;/niUsrpRio/Config/v1/Shared/niUsrpRio Config v1 Shared.lvlib"/>
 				<Item Name="niUsrpRio GPS v1 Shared.lvlib" Type="Library" URL="/&lt;instrlib&gt;/niUsrpRio/GPS/v1/Shared/niUsrpRio GPS v1 Shared.lvlib"/>
 				<Item Name="niUsrpRio Time v1 Host.lvlib" Type="Library" URL="/&lt;instrlib&gt;/niUsrpRio/Time/v1/Host/niUsrpRio Time v1 Host.lvlib"/>
