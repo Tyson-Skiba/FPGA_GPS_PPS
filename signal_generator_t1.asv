@@ -1,0 +1,44 @@
+clear all
+
+
+% % %matlab baseband signal generator
+% % Delay=8;R=.5; Fs=8; Fd=1;IF=8;
+% % 
+% % % %qpsk symbol generator
+% % load('data.mat');
+% % 
+% % %data=[1,-1,1,-1,-1,1,1]
+% % DataL=length(data)/2;
+% % %DataL=length(data)/2;
+% % data_array=[data];
+% % data_array=(data_array-.5)*2;
+% % %data_array=(data-.5)*2;
+% % data_reshaped=reshape(data_array,2,DataL);
+% % data_qpsk=data_reshaped(1,:)+1i*data_reshaped(2,:);
+% % data_qpsk=data_qpsk/sqrt(2)
+
+%data_dqpsk=dqpsk_encoder(data_qpsk);
+
+% data_qpsk=[12+22i,23+25i,5+6i,7+5i,12+15i]
+% 
+% write_complex_binary('out',data_qpsk.')
+dl=262160; %data block length
+rdata_qpsk=read_complex_binary1('in',10*(dl+1)); %10 blocks; each block starts with 1.0 separator
+n=5;
+data=rdata_qpsk(n+(n-1)*dl+15+1:n+n*dl-1);  %select the n'th block
+
+fftdata=fftshift(fft(data));
+figure(2)
+plot(10*log10(abs(fftdata)^2/(dl-16)));
+grid on
+figure(3)
+plot(abs(rdata_qpsk));
+% 
+% z=rdata_qpsk(2:65536+1);
+% 
+% yfft=fft(rdata_qpsk(2:65536+1));
+% figure(4)
+% plot(real(z))
+% figure(5)
+% plot(20*log10(abs(fftshift(yfft))))
+% 
