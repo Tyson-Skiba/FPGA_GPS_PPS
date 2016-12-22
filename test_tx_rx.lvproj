@@ -2103,7 +2103,7 @@
 			<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">USRP 294xR; 295xR 200 MSps/RioClk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSUSRP_294XR__295XR_200_MSPSFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
 			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/e5027186/Desktop/NI-USRP-Projects/test_tx_rx/FPGA/Streaming Xcvr (FPGA).vi</Property>
-			<Property Name="Resource Name" Type="Str"></Property>
+			<Property Name="Resource Name" Type="Str">RIO0</Property>
 			<Property Name="Target Class" Type="Str">USRP 294xR; 295xR 200 MSps</Property>
 			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
 			<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
