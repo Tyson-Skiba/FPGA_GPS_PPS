@@ -2054,8 +2054,27 @@
 				<Item Name="vi.lib" Type="Folder">
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
+					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
+					<Item Name="LVFixedPointQuantizationPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointQuantizationPolicyTypeDef.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
+				<Item Name="clock servo state.ctl" Type="VI" URL="../../Reciever/Timekeeper/private/clock servo state.ctl"/>
+				<Item Name="clock servo.vi" Type="VI" URL="../../Reciever/Timekeeper/private/clock servo.vi"/>
+				<Item Name="FPGA Timekeeper.lvlib" Type="Library" URL="../../Reciever/Timekeeper/FPGA Timekeeper.lvlib"/>
+				<Item Name="FPGA Timekeeper.lvlib" Type="Library" URL="../../../../../Windows/Web/Wallpaper/Windows/fpgtmkr/FPGA Timekeeper.lvlib"/>
+				<Item Name="gain controller.vi" Type="VI" URL="../../Reciever/Timekeeper/private/gain controller.vi"/>
+				<Item Name="Get Status.vi" Type="VI" URL="../../Reciever/Timekeeper/Get Status.vi"/>
+				<Item Name="Get Time.vi" Type="VI" URL="../../Reciever/Timekeeper/Get Time.vi"/>
+				<Item Name="low pass filter.vi" Type="VI" URL="../../Reciever/Timekeeper/private/low pass filter.vi"/>
+				<Item Name="offset from timeref (g).vi" Type="VI" URL="../../Reciever/Timekeeper/private/offset from timeref (g).vi"/>
+				<Item Name="Sync Time.vi" Type="VI" URL="../../Reciever/Timekeeper/Sync Time.vi"/>
+				<Item Name="time (g).vi" Type="VI" URL="../../Reciever/Timekeeper/private/time (g).vi"/>
+				<Item Name="time adjustment event (g).vi" Type="VI" URL="../../Reciever/Timekeeper/private/time adjustment event (g).vi"/>
+				<Item Name="time rate adjust (g).vi" Type="VI" URL="../../Reciever/Timekeeper/private/time rate adjust (g).vi"/>
+				<Item Name="time rate adjust event (g).vi" Type="VI" URL="../../Reciever/Timekeeper/private/time rate adjust event (g).vi"/>
+				<Item Name="time rate adjustment.vi" Type="VI" URL="../../Reciever/Timekeeper/private/time rate adjustment.vi"/>
+				<Item Name="Timekeeper.vi" Type="VI" URL="../../Reciever/Timekeeper/Timekeeper.vi"/>
+				<Item Name="timereference time (g).vi" Type="VI" URL="../../Reciever/Timekeeper/private/timereference time (g).vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="Streaming Transceiver" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -4045,8 +4064,27 @@
 				<Item Name="vi.lib" Type="Folder">
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
+					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
+					<Item Name="LVFixedPointQuantizationPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointQuantizationPolicyTypeDef.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
+				<Item Name="clock servo state.ctl" Type="VI" URL="../../Reciever/Timekeeper/private/clock servo state.ctl"/>
+				<Item Name="clock servo.vi" Type="VI" URL="../../Reciever/Timekeeper/private/clock servo.vi"/>
+				<Item Name="FPGA Timekeeper.lvlib" Type="Library" URL="../../Reciever/Timekeeper/FPGA Timekeeper.lvlib"/>
+				<Item Name="FPGA Timekeeper.lvlib" Type="Library" URL="../../../../../Windows/Web/Wallpaper/Windows/fpgtmkr/FPGA Timekeeper.lvlib"/>
+				<Item Name="gain controller.vi" Type="VI" URL="../../Reciever/Timekeeper/private/gain controller.vi"/>
+				<Item Name="Get Status.vi" Type="VI" URL="../../Reciever/Timekeeper/Get Status.vi"/>
+				<Item Name="Get Time.vi" Type="VI" URL="../../Reciever/Timekeeper/Get Time.vi"/>
+				<Item Name="low pass filter.vi" Type="VI" URL="../../Reciever/Timekeeper/private/low pass filter.vi"/>
+				<Item Name="offset from timeref (g).vi" Type="VI" URL="../../Reciever/Timekeeper/private/offset from timeref (g).vi"/>
+				<Item Name="Sync Time.vi" Type="VI" URL="../../Reciever/Timekeeper/Sync Time.vi"/>
+				<Item Name="time (g).vi" Type="VI" URL="../../Reciever/Timekeeper/private/time (g).vi"/>
+				<Item Name="time adjustment event (g).vi" Type="VI" URL="../../Reciever/Timekeeper/private/time adjustment event (g).vi"/>
+				<Item Name="time rate adjust (g).vi" Type="VI" URL="../../Reciever/Timekeeper/private/time rate adjust (g).vi"/>
+				<Item Name="time rate adjust event (g).vi" Type="VI" URL="../../Reciever/Timekeeper/private/time rate adjust event (g).vi"/>
+				<Item Name="time rate adjustment.vi" Type="VI" URL="../../Reciever/Timekeeper/private/time rate adjustment.vi"/>
+				<Item Name="Timekeeper.vi" Type="VI" URL="../../Reciever/Timekeeper/Timekeeper.vi"/>
+				<Item Name="timereference time (g).vi" Type="VI" URL="../../Reciever/Timekeeper/private/timereference time (g).vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="Streaming Transceiver" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -4164,6 +4202,7 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+			<Item Name="Global Vars.vi" Type="VI" URL="../Supporting Files/Global Vars.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
