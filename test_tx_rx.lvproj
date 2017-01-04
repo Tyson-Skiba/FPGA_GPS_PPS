@@ -4063,7 +4063,6 @@
 					<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="FPGA Timekeeper.lvlib" Type="Library" URL="../Supporting Files/FPGA Timekeeper.lvlib"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="Streaming Transceiver" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
